@@ -30,6 +30,8 @@
 		54F291CB27B4E98E00654DE6 /* Sample6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F291C927B4E98E00654DE6 /* Sample6.swift */; };
 		54F291CD27B4F46300654DE6 /* Sample7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F291CC27B4F46300654DE6 /* Sample7.swift */; };
 		54F291CE27B4F46300654DE6 /* Sample7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F291CC27B4F46300654DE6 /* Sample7.swift */; };
+		54F291D027BD04FF00654DE6 /* Sample8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F291CF27BD04FF00654DE6 /* Sample8.swift */; };
+		54F291D127BD04FF00654DE6 /* Sample8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F291CF27BD04FF00654DE6 /* Sample8.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,7 @@
 		54F291C627B4DFE600654DE6 /* Sample5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample5.swift; sourceTree = "<group>"; };
 		54F291C927B4E98E00654DE6 /* Sample6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample6.swift; sourceTree = "<group>"; };
 		54F291CC27B4F46300654DE6 /* Sample7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample7.swift; sourceTree = "<group>"; };
+		54F291CF27BD04FF00654DE6 /* Sample8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample8.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,7 @@
 				54F291C627B4DFE600654DE6 /* Sample5.swift */,
 				54F291C927B4E98E00654DE6 /* Sample6.swift */,
 				54F291CC27B4F46300654DE6 /* Sample7.swift */,
+				54F291CF27BD04FF00654DE6 /* Sample8.swift */,
 				5483F7D627B37CC500B98FEF /* Helper */,
 			);
 			path = Shared;
@@ -223,6 +227,7 @@
 				5483F7D427B26A6100B98FEF /* Sample1.swift in Sources */,
 				5483F7DB27B3AA5B00B98FEF /* Sample2.swift in Sources */,
 				5483F7D827B37CD000B98FEF /* APIClient.swift in Sources */,
+				54F291D027BD04FF00654DE6 /* Sample8.swift in Sources */,
 				54F291C727B4DFE600654DE6 /* Sample5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +245,7 @@
 				5483F7D527B26A6100B98FEF /* Sample1.swift in Sources */,
 				5483F7DC27B3AA5B00B98FEF /* Sample2.swift in Sources */,
 				5483F7D927B37CD000B98FEF /* APIClient.swift in Sources */,
+				54F291D127BD04FF00654DE6 /* Sample8.swift in Sources */,
 				54F291C827B4DFE600654DE6 /* Sample5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

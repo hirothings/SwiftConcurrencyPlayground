@@ -32,6 +32,9 @@ struct ContentView: View {
                 NavigationLink("Delegateメソッドをawaitする") {
                     Sample7()
                 }
+                NavigationLink("group.next()とgroup.waitForAll()の挙動") {
+                    Sample8()
+                }
             }
         }
     }
