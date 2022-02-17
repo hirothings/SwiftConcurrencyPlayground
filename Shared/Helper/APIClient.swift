@@ -49,11 +49,13 @@ struct APIClient {
     }
     
     static func fetchUser(by id: String) async throws -> User {
-        let url = URL(string: "https://qehzqb2qqs.microcms.io/api/v1/users?filters=id[equals]\(id)")!
+        print("ユーザー取得開始: \(id)")
+        let url = URL(string: "https://qehzqb2qqs.microcms.io/api/v1/users/\(id)")!
         let request = makeRequest(url)
         let result = try await URLSession.shared.data(for: request)
-        let users = try JSONDecoder().decode(Item<User>.self, from: result.0)
-        return users.contents.first!
+        let user = try JSONDecoder().decode(User.self, from: result.0)
+        print("ユーザー取得完了: \(id)")
+        return user
     }
     
     static func fetchNews() async throws -> [News] {
