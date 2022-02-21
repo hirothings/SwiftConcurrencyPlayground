@@ -35,6 +35,9 @@ struct ContentView: View {
                 NavigationLink("group.next()とgroup.waitForAll()の挙動") {
                     Sample8()
                 }
+                NavigationLink("ワークショップ問題: 1") {
+                    Challenge1()
+                }
             }
         }
     }
