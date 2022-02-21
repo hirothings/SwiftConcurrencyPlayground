@@ -38,6 +38,9 @@ struct ContentView: View {
                 NavigationLink("ワークショップ問題: 1") {
                     Challenge1()
                 }
+                NavigationLink("ワークショップ問題: 2") {
+                    Challenge2()
+                }
             }
         }
     }

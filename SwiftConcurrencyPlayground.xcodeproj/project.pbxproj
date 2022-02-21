@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		546A596527C34EE000ABF0EC /* Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A596427C34EE000ABF0EC /* Challenge1.swift */; };
 		546A596627C34EE000ABF0EC /* Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A596427C34EE000ABF0EC /* Challenge1.swift */; };
+		546A596827C352BC00ABF0EC /* Challenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A596727C352BC00ABF0EC /* Challenge2.swift */; };
+		546A596927C352BC00ABF0EC /* Challenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A596727C352BC00ABF0EC /* Challenge2.swift */; };
 		5483F7C227B2674900B98FEF /* SwiftConcurrencyPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5483F7B227B2674900B98FEF /* SwiftConcurrencyPlayground.swift */; };
 		5483F7C327B2674900B98FEF /* SwiftConcurrencyPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5483F7B227B2674900B98FEF /* SwiftConcurrencyPlayground.swift */; };
 		5483F7C427B2674900B98FEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5483F7B327B2674900B98FEF /* ContentView.swift */; };
@@ -38,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		546A596427C34EE000ABF0EC /* Challenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1.swift; sourceTree = "<group>"; };
+		546A596727C352BC00ABF0EC /* Challenge2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge2.swift; sourceTree = "<group>"; };
 		5483F7B227B2674900B98FEF /* SwiftConcurrencyPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyPlayground.swift; sourceTree = "<group>"; };
 		5483F7B327B2674900B98FEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5483F7B427B2674900B98FEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,6 +100,7 @@
 				54F291CF27BD04FF00654DE6 /* Sample8.swift */,
 				5483F7D627B37CC500B98FEF /* Helper */,
 				546A596427C34EE000ABF0EC /* Challenge1.swift */,
+				546A596727C352BC00ABF0EC /* Challenge2.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -222,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546A596827C352BC00ABF0EC /* Challenge2.swift in Sources */,
 				5483F7DF27B3B4E100B98FEF /* Sample3.swift in Sources */,
 				5483F7E127B4AE2500B98FEF /* Sample4.swift in Sources */,
 				54F291CA27B4E98E00654DE6 /* Sample6.swift in Sources */,
@@ -241,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546A596927C352BC00ABF0EC /* Challenge2.swift in Sources */,
 				5483F7DE27B3B4E100B98FEF /* Sample3.swift in Sources */,
 				5483F7E227B4AE2500B98FEF /* Sample4.swift in Sources */,
 				54F291CB27B4E98E00654DE6 /* Sample6.swift in Sources */,
